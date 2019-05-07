@@ -13,15 +13,15 @@ export interface State {
 }
 
 export interface Styles {
-    bmBurgerBars: Partial<CSSStyleDeclaration>;
-    bmBurgerButton: Partial<CSSStyleDeclaration>;
-    bmCross: Partial<CSSStyleDeclaration>;
-    bmCrossButton: Partial<CSSStyleDeclaration>;
-    bmItemList: Partial<CSSStyleDeclaration>;
-    bmMenuWrap: Partial<CSSStyleDeclaration>;
-    bmMenu: Partial<CSSStyleDeclaration>;
-    bmMorphShape: Partial<CSSStyleDeclaration>;
-    bmOverlay: Partial<CSSStyleDeclaration>;
+    bmBurgerBars?: Partial<CSSStyleDeclaration>;
+    bmBurgerButton?: Partial<CSSStyleDeclaration>;
+    bmCross?: Partial<CSSStyleDeclaration>;
+    bmCrossButton?: Partial<CSSStyleDeclaration>;
+    bmItemList?: Partial<CSSStyleDeclaration>;
+    bmMenuWrap?: Partial<CSSStyleDeclaration>;
+    bmMenu?: Partial<CSSStyleDeclaration>;
+    bmMorphShape?: Partial<CSSStyleDeclaration>;
+    bmOverlay?: Partial<CSSStyleDeclaration>;
 }
 
 export interface Props {
